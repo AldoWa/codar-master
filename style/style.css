@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+#titulo #h2-titulo {
+  color: #d6000d;
+  font-size: 50px;
+  font-style: italic;
+  margin: 0 0 0 150px;
+}
+.container #titulo {
+  display: flex;
+  align-items: center;
+}
+
+.container #ponto {
+  color: black;
+  font-size: 50px;
+}
+
+.container ul {
+  list-style: none;
+  margin-right: 27px;
+}
+.container ul li a {
+  text-decoration: none;
+}
+
+.container #container-nav #navbar #btn-login {
+  padding: 12px 65px;
+
+  color: white;
+  background-color: #d6000d;
+  border-radius: 1rem;
+}
+
+.container #container-nav ul li {
+  display: inline;
+  margin: 20px;
+  font-size: 1.3em;
+}
+
+.container #img-print img {
+  height: 400px;
+  margin-left: 50%;
+  margin-top: 60px;
+}
+
+.container #second-part {
+  width: 35%;
+}
+#second-part {
+  margin-right: 35px;
+}
+#second-part #span {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+#second-part #span h1 {
+  color: #d6000d;
+  font-size: 3em;
+  margin-bottom: 60px;
+}
+
+#second-part a {
+  background-color: #d6000d;
+  text-decoration: none;
+  color: white;
+  padding: 15px 90px;
+  border-radius: 15px;
+}
+
+@media (max-width: 1000px) {
+  .container #img-print img {
+    width: 350px;
+    height: 250px;
+    margin-right: 100px;
+  }
+  #second-part a {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container #container-nav {
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+  .container #second-part {
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container #img-print img {
+    width: 350px;
+    height: 250px;
+  }
+  .container #container-nav #navbar #btn-login {
+    display: none;
+  }
+}
+
+.container .img-side #img_coding {
+  width: 500px;
+  height: 400px;
+  margin-right: 150px;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+.container .icons-side {
+  margin-left: 200px;
+  margin-top: 100px;
+  font-size: 1.3em;
+}
+
+@media (max-width: 1100px) {
+  .container .img-side #img_coding {
+    width: 350px;
+    height: 250px;
+    margin-right: 100px;
+    margin-top: 90px;
+    margin-left: 10px;
+  }
+
+  .container .icons-side {
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 1.3em;
+  }
+}
+
+.container .icons-side ul li {
+  margin-bottom: 0.7rem;
+}
+
+.container .icons-side .span-letters {
+  margin-left: 1.5rem;
+  font-style: normal;
+}
+
+.container .icons-side .material-icons {
+  color: #d6000d;
+}
+
+.container-third {
+  display: flex;
+  flex-direction: column;
+  margin: -1rem 0 0 12rem;
+}
+
+.container-third span {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container-third #call-you {
+  margin-left: -5px;
+}
+
+.container-third #call-you a {
+  font-weight: bold;
+  margin-left: 10px;
+  background-color: #d6000d;
+  text-decoration: none;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 15px;
+}
+
+.container-third #call-you input {
+  background-color: #d3d3d3;
+  padding: 13px 25px;
+  border-radius: 13px;
+  border: 2px white solid;
+}
+.container-four {
+  display: flex;
+}
+.container-four .caixa {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  align-items: center;
+  background-color: #d3d3d3;
+  border-radius: 20px;
+  margin-left: 190px;
+  margin-top: 80px;
+  margin-right: 100px;
+  padding: 30px;
+  height: 150px;
+}
+.container-four .caixa .img-ball {
+  background-color: #d6000d;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 30px;
+  margin-right: 20px;
+}
+
+.container-four .caixa .textos h4 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.container-four .caixa .textos span {
+  font-size: 13px;
+}
+
+.container-four .caixa .textos h5 {
+  margin-bottom: 3px;
+  font-size: 12px;
+}
+
+@media (max-width: 1100px) {
+  .container-four {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-four .caixa {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+
+    align-items: center;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+
+    padding: 30px;
+    height: 250px;
+  }
+}
+.container-five {
+  height: 250px;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.container-five {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  padding: 20px 30px;
+}
+
+.container-five .codar-area #company-title {
+  font-size: 2.4rem;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.container-five .span-side {
+  margin: 10px 0px;
+}
+
+.container-five .sub-area {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 12vw;
+}
+
+.container-five .contato-area {
+  display: flex;
+  flex-direction: column;
+}
